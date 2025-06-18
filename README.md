@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=_hexcode&height=200&section=header&text=We&nbsp;Are&nbsp;HKNU&nbsp;IoT&nbsp;TEAM&nbsp;5&nbsp;!&fontColor=FFFFFF&fontSize=60&animation=twinkling)
 
-# 🎮 Number Baseball Game (숫자야구 게임 - FPGA 임베디드)
+## Number Baseball Game 
 
 이 프로젝트는 FPGA 모듈 기반의 숫자야구 게임입니다.  
 Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용자와 AI가 번갈아 숫자를 맞추는 게임을 구현했습니다.
@@ -22,7 +22,7 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 
 ---
 
-## 🔧 Hardware Modules Used
+## Hardware Modules Used
 
 | 모듈         | 기능                                |
 |--------------|-------------------------------------|
@@ -35,7 +35,7 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 
 ---
 
-## 🕹 Game Rules
+## Game Rules
 
 - 사용자 또는 AI가 2자리 ~ 4자리 숫자를 추측합니다.
 - 자리와 숫자가 모두 맞으면 **스트라이크(S)**  
@@ -45,7 +45,7 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 
 ---
 
-## 🧠 Difficulty Modes
+## Difficulty Modes
 
 | 모드       | 자리 수 | 제한 시간 |
 |------------|---------|------------|
@@ -56,7 +56,7 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Raspberry Pi 또는 임베디드 보드에 `.c` 파일 업로드
 2. 아래 명령어로 컴파일
@@ -64,13 +64,13 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
    gcc -o number_baseball number_baseball_game.c
 3. sudo ./number_baseball
 
-## 🌿 Branch Overview
+## Branch Overview
 - 브랜치 이름  주요 기능
 - main : 전체 통합 및 디버그 정리본
 - jeon : 숫자 입력 / FND 출력 / Dot-Matrix / 정답 판정 로직 등
 - sabin : LCD 출력 / 난이도 선택 / 부저 효과음 / AI 모드 등
 
-## 🧰 Development Environment
+## Development Environment
 - Raspberry Pi 4
 - GCC (arm-linux-gcc)
 - Linux Embedded Driver (/dev/fpga_XXX)
