@@ -65,7 +65,6 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 3. sudo ./number_baseball
 
 ## Branch Overview
-- 브랜치 이름  주요 기능
 - main : 전체 통합 및 디버그 정리본
 - jeon : 숫자 입력 / FND 출력 / Dot-Matrix / 정답 판정 로직 등
 - sabin : LCD 출력 / 난이도 선택 / 부저 효과음 / AI 모드 등
