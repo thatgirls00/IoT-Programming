@@ -7,6 +7,12 @@ Push Switch, FND, LED, Dot-Matrix, Text LCD, Buzzer 등을 활용하여 사용�
 
 ---
 
+## Project Flow
+
+<img width="634" alt="Image" src="https://github.com/user-attachments/assets/d5df4662-a962-44c9-bbd8-e067efe5c48b" />
+
+---
+
 ## Features
 
 -  스위치를 통한 숫자 입력 및 중복 방지 처리
